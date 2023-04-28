@@ -46,7 +46,7 @@
       <!-- right part Signup form start -->
       <div class="form__container">
         <div class="form__container-inputs">
-          <form action="submit">
+          <form action="submit" class="submit-form" id="submit-form">
             <div class="box">
               <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
               <i class="fas fa-check-circle"></i>
@@ -75,7 +75,7 @@
 
           </form>
         </div>
-        <button class="btn">Claim your free trial</button>
+        <button class="btn" form="submit-form" type="submit">Claim your free trial</button>
         <!-- right part footer start -->
         <div class="right__footer">
           <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
